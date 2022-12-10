@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image2"
+    tools:context="MainActivity">
+
+     <Button
+         android:id="@+id/alrt_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="310dp"
+         android:layout_marginTop="60dp"
+         android:background="@android:color/transparent"/>
+
+
+
+    <EditText
+        android:id="@+id/Weight"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter weight in kg"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="-59dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icons8_weight_kg_50" />
+
+    <EditText
+        android:id="@+id/Height"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="60dp"
+        android:background="@android:color/transparent"
+        android:hint="Enter height in cm"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_marginTop="-55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/icons8_height_64" />
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:textSize="20dp"
+        android:background="@android:color/transparent"
+        android:text="Result"
+        />
+
+
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#511E1E"
+        android:text="BMI"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:text="Status"
+        android:textSize="20dp"
+        android:textColor="#800080"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ReCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#3FB51F"
+        android:text="Recalculate"
+        android:visibility="gone" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
